@@ -7,7 +7,7 @@ import { ModeToggle } from "@/components/theme-toggle"
 
 export function Navbar() {
     return (
-        <header className="flex items-center justify-between py-8 px-4 md:px-8 relative z-50 max-w-7xl mx-auto w-full">
+        <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 py-4 px-4 md:px-8 flex items-center justify-between mx-auto">
             <Link href="/" className="flex items-center gap-2 group">
                 {/* Geometric Logo */}
                 <div className="h-8 w-8 rounded-lg border border-white/20 flex items-center justify-center bg-white/5 group-hover:border-[var(--accent-color)] transition-colors">

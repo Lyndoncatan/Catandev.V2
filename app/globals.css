@@ -31,26 +31,29 @@
 }
 
 [data-theme="light"] {
-  /* High Contrast Light Mode (Inverse) */
-  --foreground-rgb: 5, 5, 5;
-  --background-rgb: 245, 245, 240;
-  /* Warmer off-white */
+  /* Forest Theme (Invoked as Light Mode) */
+  --foreground-rgb: 156, 161, 115;
+  /* #9CA173 Light Olive */
+  --background-rgb: 17, 24, 20;
+  /* #111814 Dark Forest Green */
 
-  --glass-border: rgba(0, 0, 0, 0.1);
-  --glass-bg: rgba(255, 255, 255, 0.8);
+  --glass-border: rgba(156, 161, 115, 0.2);
+  --glass-bg: rgba(17, 24, 20, 0.8);
   --glass-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 
-  --text-primary: #050505;
-  --text-secondary: #4a4a4a;
+  --text-primary: #9CA173;
+  /* Light Olive */
+  --text-secondary: #646843;
+  /* Medium Olive */
 
-  --accent-color: #606040;
-  /* Darker Olive for light mode visibility */
-  --accent-glow: #808060;
+  --accent-color: #646843;
+  /* #646843 Medium Olive */
+  --accent-glow: #9CA173;
 
-  --bg-gradient-start: #fbfbfb;
-  --bg-gradient-end: #f0f0f0;
+  --bg-gradient-start: #111814;
+  --bg-gradient-end: #0d120f;
 
-  --accent-inverse: #ffffff;
+  --accent-inverse: #111814;
 }
 
 body {

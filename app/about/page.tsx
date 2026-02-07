@@ -85,6 +85,53 @@ export default function AboutPage() {
           variants={fadeInUp}
           initial="hidden"
           animate="visible"
+          transition={{ delay: 0.1 }}
+        >
+          <h2 className="text-4xl font-medium text-[var(--text-primary)] mb-12 text-center tracking-tight">Professional Certifications</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="group relative border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition-colors hover:border-[var(--accent-color)]">
+              <div className="mb-4 flex items-center justify-between">
+                <div className="p-2 bg-[var(--accent-color)]/10 rounded-lg">
+                  <Database className="h-6 w-6 text-[var(--accent-color)]" />
+                </div>
+                <Button variant="ghost" size="sm" asChild className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] gap-2">
+                  <Link href="#" target="_blank">View Certificate <ArrowLeft className="h-3 w-3 rotate-180" /></Link>
+                </Button>
+              </div>
+              <h3 className="text-xl font-medium text-[var(--text-primary)] mb-2">SQL and Relational Databases 101</h3>
+              <p className="text-[var(--text-secondary)] text-sm mb-4">IBMI</p>
+              <div className="relative aspect-video w-full overflow-hidden rounded-md border border-white/10 bg-black/50">
+                <div className="absolute inset-0 flex items-center justify-center text-[var(--text-secondary)] text-xs">
+                  Certificate Image Placeholder
+                </div>
+              </div>
+            </div>
+
+            <div className="group relative border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition-colors hover:border-[var(--accent-color)]">
+              <div className="mb-4 flex items-center justify-between">
+                <div className="p-2 bg-[var(--accent-color)]/10 rounded-lg">
+                  <Globe className="h-6 w-6 text-[var(--accent-color)]" />
+                </div>
+                <Button variant="ghost" size="sm" asChild className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] gap-2">
+                  <Link href="#" target="_blank">View Certificate <ArrowLeft className="h-3 w-3 rotate-180" /></Link>
+                </Button>
+              </div>
+              <h3 className="text-xl font-medium text-[var(--text-primary)] mb-2">Oracle Cloud Infrastructure 2024 Foundations</h3>
+              <p className="text-[var(--text-secondary)] text-sm mb-4">Oracle</p>
+              <div className="relative aspect-video w-full overflow-hidden rounded-md border border-white/10 bg-black/50">
+                <div className="absolute inset-0 flex items-center justify-center text-[var(--text-secondary)] text-xs">
+                  Certificate Image Placeholder
+                </div>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="mb-24"
+          variants={fadeInUp}
+          initial="hidden"
+          animate="visible"
           transition={{ delay: 0.2 }}
         >
           <h2 className="text-4xl font-medium text-[var(--text-primary)] mb-12 text-center tracking-tight">My Values</h2>

@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { ArrowLeft, Mail, Phone, MapPin, Facebook } from "lucide-react"
+import { ArrowLeft, Mail, Phone, MapPin, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 import { GlassCard } from "@/components/glass-card"
@@ -95,7 +95,7 @@ export default function ContactPage() {
                   <Mail className="h-6 w-6 text-[var(--accent-color)] mt-1" />
                   <div>
                     <h3 className="font-medium text-[var(--text-primary)]">Email</h3>
-                    <p className="text-[var(--text-secondary)]">lyndoncatan75@gmail.com</p>
+                    <p className="text-[var(--text-secondary)]">Catanlyndon200316@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -113,11 +113,11 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <Facebook className="h-6 w-6 text-[var(--accent-color)] mt-1" />
+                  <Linkedin className="h-6 w-6 text-[var(--accent-color)] mt-1" />
                   <div>
-                    <h3 className="font-medium text-[var(--text-primary)]">Facebook</h3>
-                    <Link href="https://www.facebook.com/dondon.catan.359/" target="_blank" className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] underline decoration-1 underline-offset-4">
-                      Dondon Catan
+                    <h3 className="font-medium text-[var(--text-primary)]">LinkedIn</h3>
+                    <Link href="https://www.linkedin.com/in/lyndon-domini-m-catan/" target="_blank" className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] underline decoration-1 underline-offset-4">
+                      Lyndon Domini Catan
                     </Link>
                   </div>
                 </div>

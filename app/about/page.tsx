@@ -100,10 +100,13 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-medium text-[var(--text-primary)] mb-2">SQL and Relational Databases 101</h3>
               <p className="text-[var(--text-secondary)] text-sm mb-4">IBMI</p>
-              <div className="relative aspect-video w-full overflow-hidden rounded-md border border-white/10 bg-black/50">
-                <div className="absolute inset-0 flex items-center justify-center text-[var(--text-secondary)] text-xs">
-                  Certificate Image Placeholder
-                </div>
+              <div className="relative aspect-video w-full overflow-hidden rounded-md border border-white/10 bg-black/50 group-hover:border-[var(--accent-color)] transition-colors">
+                <Image
+                  src="/images/cert-sql.png"
+                  alt="SQL and Relational Databases 101 Certificate"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
               </div>
             </div>
 
@@ -118,10 +121,13 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-medium text-[var(--text-primary)] mb-2">Oracle Cloud Infrastructure 2024 Foundations</h3>
               <p className="text-[var(--text-secondary)] text-sm mb-4">Oracle</p>
-              <div className="relative aspect-video w-full overflow-hidden rounded-md border border-white/10 bg-black/50">
-                <div className="absolute inset-0 flex items-center justify-center text-[var(--text-secondary)] text-xs">
-                  Certificate Image Placeholder
-                </div>
+              <div className="relative aspect-video w-full overflow-hidden rounded-md border border-white/10 bg-black/50 group-hover:border-[var(--accent-color)] transition-colors">
+                <Image
+                  src="/images/cert-oracle.png"
+                  alt="Oracle Cloud Infrastructure 2024 Foundations Certificate"
+                  fill
+                  className="object-contain p-4 bg-white/5 transition-transform duration-500 group-hover:scale-105"
+                />
               </div>
             </div>
           </div>

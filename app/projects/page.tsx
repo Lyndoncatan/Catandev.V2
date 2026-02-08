@@ -148,7 +148,7 @@ export default function ProjectsPage() {
       title: "NEU-LabLog",
       description: "A lab attendance tracking system with QR/OCR functionality",
       image: "/images/neu-lablog.png",
-      url: "https://neu-lab-logs-5bzx-nvistqrzc.vercel.app/",
+      url: "https://neu-lab-logs-5bzx.vercel.app/",
     },
   ]
 

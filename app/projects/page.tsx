@@ -136,6 +136,14 @@ export default function ProjectsPage() {
 
     },
 
+    {
+      id: 17,
+      title: "Algorithm Explorer",
+      description: "Interactive algorithm visualizer with real-time metrics and audio feedback.",
+      image: "/images/algorithm-explorer.png",
+      url: "https://algorithm-explorer-five.vercel.app",
+    },
+
 
   ]
 

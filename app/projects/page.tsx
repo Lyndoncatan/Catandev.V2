@@ -143,8 +143,13 @@ export default function ProjectsPage() {
       image: "/images/algorithm-explorer.png",
       url: "https://algorithm-explorer-five.vercel.app",
     },
-
-
+    {
+      id: 18,
+      title: "NEU-LabLog",
+      description: "A lab attendance tracking system with QR/OCR functionality",
+      image: "/images/neu-lablog.png",
+      url: "https://neu-lab-logs-5bzx-nvistqrzc.vercel.app/",
+    },
   ]
 
   const fadeInUp = {

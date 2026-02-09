@@ -150,6 +150,13 @@ export default function ProjectsPage() {
       image: "/images/neu-lablog.png",
       url: "https://neu-lab-logs-5bzx.vercel.app/",
     },
+    {
+      id: 19,
+      title: "Jogging Simulation",
+      description: "Interactive Human Locomotion Visualizer",
+      image: "/images/catan-dev-logo.png",
+      url: "https://human-locomotion-jogging-simulation.vercel.app/",
+    },
   ]
 
   const fadeInUp = {
